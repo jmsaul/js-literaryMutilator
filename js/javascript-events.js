@@ -8,10 +8,11 @@
 function clickEvent() {
 	var changeString="Resistance is good for you";
   document.getElementById("click").innerHTML = changeString;
+  document.getElementById("click").sytle.color = "green";
  }
 
 /**
- *  Changes the color of the selected font
+ *  Changes the color of the selected text
  **/
 function changeTextColor() {
  document.getElementById("p2").style.color = "blue";
