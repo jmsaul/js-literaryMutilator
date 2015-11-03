@@ -11,16 +11,15 @@ function clickEvent() {
  }
 
 /**
- *  Changes the color of the font
+ *  Changes the color of the selected font
  **/
-/**  function changefontcolor(theColor,theText)
- {
-  return '<span style="+theColor+">'+theText+'</span>';
- }
-**/
-
-function changeFontColor() {
- var paragraph2 = document.getElementById("p2").innerHTML;
- paragraph.sytle.color = "blue";
+function changeTextColor() {
+ document.getElementById("p2").style.color = "blue";
 }
-/** var newString=changeString(changefontcolor("blue",))  **/
+
+/**
+ * Changes the background color of a paragraph
+**/
+function changeBackgroundColor() {
+ document.getElementById("p3").style.backgroundColor = "red";
+}
